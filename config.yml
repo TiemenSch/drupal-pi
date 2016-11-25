@@ -1,7 +1,7 @@
 ---
 # Raspberry Pi configuration.
 drupal_pi_processor_count: 4
-pi_install_php_from_source: false
+pi_install_php_from_source: true
 
 # Drupal configuration.
 drupal_site_name: "Drupal Pi"
