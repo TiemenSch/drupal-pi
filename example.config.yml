@@ -55,7 +55,7 @@ php_max_execution_time: "240"
 php_opcache_enabled_in_ini: true
 php_opcache_memory_consumption: "128"
 php_fpm_listen: "127.0.0.1:9000"
-php_fpm_listen_allowed_clients: "127.0.0.1"
+php_fpm_listen_allowed_clients: "127.0.0.1", "192.168.2.10"
 php_fpm_pm_max_children: 7
 php_fpm_pm_start_servers: 4
 php_fpm_pm_min_spare_servers: 2
