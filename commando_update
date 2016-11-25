@@ -1,0 +1,3 @@
+sudo git pull
+sudo ansible-galaxy install -r requirements.yml --force
+sudo ansible-playbook -i inventory -c local main.yml
